@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Azriel - Network Engineer</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<canvas id="snow"></canvas>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="navbar-container">
+        <a href="#" class="logo">&lt;/&gt; azrlpmbd</a>
+
+        <div class="nav-right">
+            <ul class="menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#certificate">Certificate</a></li>
+            </ul>
+
+            <div id="google_translate_element"></div>
+
+            <i class="fas fa-globe translate-icon" onclick="toggleTranslate()"></i>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero" class="section hero">
+    <div class="container">
+        <img src="img/pasfoto.jpeg" class="profile-img">
+        <h1>Azriel Satrio Pambudi</h1>
+        <p>IT Network Infrastructure | Network Engineer</p>
+
+        <div class="btn-group">
+    <a href="https://drive.google.com/file/d/1bqYNGPSZqKt9v1b66A-_-1cEAeFUikHB/view?usp=sharing" 
+       class="btn btn-primary" 
+       target="_blank">
+       Download CV <i class="fas fa-download"></i>
+    </a>
+
+    <a href="https://wa.me/62895372333198?text=Halo%20Azriel,%20saya%20tertarik%20untuk%20bekerja%20sama" 
+       class="btn btn-secondary" 
+       target="_blank">
+       Contact Me <i class="fas fa-envelope"></i>
+    </a>
+</div>
+    </div>
+</section>
+
+<!-- PROFILE -->
+<section id="profile" class="section bg-light">
+    <div class="container profile-flex">
+
+        <div class="profile-left">
+            <img src="img/abotme.png">
+        </div>
+
+        <div class="profile-right">
+            <h2>About Me</h2>
+            <hr>
+            <p>
+                I am a </strong>Network Engineer</strong> specializing in </strong>IT network infrastructure</strong>.
+I have a deep understanding of designing, planning, and maintaining stable and secure networks.
+I am accustomed to working with a variety of network devices and am always eager for the latest technology in infrastructure.
+            </p>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/azriel-satrio-pambudi" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:azrielsatriopambudi@gmail.com?subject=Kerjasama%20Project&body=Halo%20Azriel,%20saya%20tertarik%20untuk%20bekerja%20sama."><i class="fas fa-envelope"></i></a>
+                <a href="https://wa.me/62895372333198"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+    <div class="container">
+        <h2 class="section-title">Work Experience</h2>
+        <p class="section-subtitle">My professional journey and career achievements</p>
+
+        <div class="experience-wrapper">
+            <!-- Experience 1 -->
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="company-info">
+                       <div class="company-logo">
+                           <img src="img/ipb.jpg" alt="Institut Pertanian Bogor (IPB)">
+                        </div>
+                        <div>
+                            <h3>Institut Petanian Bogor</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Bogor, Indonesia • WFO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-body">
+                    <div class="job-title">
+                        <h4>IT Network Engineer</h4>
+                        <span class="duration">Mei 2026 - Sekarang</span>
+                    </div>
+                    <ul class="job-description">
+                        <li>Configure network infrastructure devices (switches, routers, access points, and wireless controllers) as needed.</li>
+                        <li>Install new networks.</li>
+                        <li>Provide services to the entire IPB academic community regarding ID-IPB and troubleshooting (laptops, Office 365).</li>
+                        <li>Monitoring and maintenance networks.</li>
+                        <li>Troubleshoot network connection issues.</li>
+                        <li>Setup and configure software and hardware supporting IPB's Internet of Things (CCTV, facial recognition, and fingerprint door locks).</li>
+                        <li>Supervise and maintain PCs in the IPB Computer Laboratory.</li>
+                    </ul>
+                    <div class="technologies">
+                        <span class="tech-tag">MikroTik</span>
+                        <span class="tech-tag">Cisco</span>
+                        <span class="tech-tag">Rujije</span>
+                        <span class="tech-tag">Cabling</span>
+                        <span class="tech-tag">Hardware</span>
+                        <span class="tech-tag">Software</span>
+                        <span class="tech-tag">Monitoring</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience 2 -->
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="company-info">
+                        <div class="company-logo">
+                           <img src="img/maxindo.png" alt="PT Maxindo Mitra Solusi">
+                        </div>
+                        <div>
+                            <h3>PT Maxindo Mitra Solusi</h3>
+                            <p><i class="fas fa-map-marker-alt"></i>  Jakarta Barat, Indonesia • WFO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-body">
+                    <div class="job-title">
+                        <h4>Wireless Network Engineer (Monitoring, Maintenance, Provisioning)</h4>
+                        <span class="duration">Jan 2024 - Jun 2024 • 6 bln</span>
+                    </div>
+                    <ul class="job-description">
+                        <li>Installing new customer internet using radio devices using the point-to-point method.</li>
+                        <li>Configuring all Ubiquiti and Mikrotik wireless network radios.</li>
+                        <li>Configuring Mikrotik client routers for routing, firewall, queue, and radius configurations.</li>
+                        <li>Standardizing device settings for all customers according to procedures.</li>
+                        <li>Quality of Service (QoS): Implementing traffic management.</li>
+                        <li>Monitoring client links to ensure proper link operation.</li>
+                        <li>Troubleshooting client internet connection issues by changing the point-to-point radio frequency.</li>
+                        <li>Troubleshooting CPE/Client routers related to public routing, P2P IP routing, and firewalls.</li>
+                        <li>Analyzing client devices according to the bandwidth requested by the client.</li>
+                    </ul>
+                    <div class="technologies">
+                        <span class="tech-tag">Network Administration</span>
+                        <span class="tech-tag">Wireless Radio point-to-point</span>
+                        <span class="tech-tag">Coordination</span>
+                        <span class="tech-tag">Tunning Frequency</span>
+                        <span class="tech-tag">Ubiquitty</span>
+                        <span class="tech-tag">MikroTik</span>
+                        <span class="tech-tag">Router Configuration</span>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience 3 -->
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="company-info">
+                        <div class="company-logo">
+                           <img src="img/ovall.png" alt="PT Ovall Solusindo Mandiri">
+                        </div>
+                        <div>
+                            <h3>PT Ovall Solusindo Mandiri</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Bogor, Indonesia • Onsite</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-body">
+                    <div class="job-title">
+                        <h4>Fiber Optic Technician</h4>
+                        <span class="duration">Sep 2023 - Dec 2023 • 4 bln</span>
+                    </div>
+                    <ul class="job-description">
+                       <li>FTTH Network Installation</li>
+                       <li>FTTH Network Maintenance</li>
+                       <li>Modem Configuration</li>
+                       <li>ODC/ODP</li>
+                       <li>Splicing</li>
+                    </ul>
+                    <div class="technologies">
+                        <span class="tech-tag">Modem Configuration</span>
+                        <span class="tech-tag">Splicing</span>
+                        <span class="tech-tag">Fiber Optic Installation</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience 4 -->
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="company-info">
+                       <div class="company-logo">
+                           <img src="img/asnet.jpg" alt="PT Usaha Adi Sanggoro (ASNET)  ">
+                        </div>
+                        <div>
+                            <h3>PT Usaha Adi Sanggoro (ASNET)</h3>
+                            <p><i class="fas fa-map-marker-alt"></i> Bogor, Indonesia • WFO</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-body">
+                    <div class="job-title">
+                        <h4>Data Center Operator (Internship)</h4>
+                        <span class="duration">Jun 2022 - Aug 2023 • 1 thn 3 bln</span>
+                    </div>
+                    <ul class="job-description">
+                        <li>Installing server equipment into the server rack.</li>
+                        <li>Installing the client's required OS (Ubuntu, Debian, CentOS, Almalinux).</li>
+                        <li>Installing the DNS server, mail server, and web server.</li>
+                        <li>Conducting routine weekly data center checks to ensure room temperature, generator readiness, and water leaks to maintain optimal data center operations.</li>
+                    </ul>
+                    <div class="technologies">
+                        <span class="tech-tag">Server Installation</span>
+                        <span class="tech-tag">Linux Configuration</span>
+                        <span class="tech-tag">Network Administration</span>
+                        <span class="tech-tag">Communication with Clients</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECT -->
+<section id="projects" class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Project</h2>
+        <p class="section-subtitle">Some of the projects I have worked on</p>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+                <a class="project-link-overlay" href="https://drive.google.com/file/d/1h39DA-pEFi7_tXQn3eOOQ2JJv9UzxEU9/view?usp=sharing" target="_blank">
+                    <div class="project-image-wrapper">
+                        <img src="img/qos.jpeg" alt="Project 1">
+                        <div class="project-overlay">See details</div>
+                    </div>
+                </a>
+                <div class="project-info">
+                    <h3>Implementation QOS with MikroTik</h3>
+                    <p class="project-description">Implementing Quality of Service (QoS) to manage and optimize network bandwidth usage. Configurations are implemented to prioritize critical traffic, such as work application access, and limit bandwidth usage for non-priority services.
+                                                  Using queue management and traffic shaping methods, the network becomes more stable, latency is reduced, and performance remains optimal under high loads.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <a class="project-link-overlay" href="https://www.linkedin.com/posts/azriel-satrio-pambudi_pkl-almalinux-owncloud-activity-7341087609420480514-jLWG?utm_source=share&utm_medium=member_ios&rcm=ACoAAFbXqpMB6jUSgZ8BiM7LrRnmVC7h9wKmKk8" target="_blank">
+                    <div class="project-image-wrapper">
+                        <img src="img/almalinux.jpeg" alt="Project 2">
+                        <div class="project-overlay">See details</div>
+                    </div>
+                </a>
+                <div class="project-info">
+                    <h3>Enterprise Server Implementation on AlmaLinux 8</h3>
+                    <p class="project-description">Implementation and configuration of various integrated AlmaLinux 8-based server services, including Web Server, DNS Server, Mail Server, Webmail, OwnCloud, and Cacti Monitoring.
+                                                  This project focuses on network service management, system security, and performance optimization to support IT infrastructure needs stably and efficiently.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <a class="project-link-overlay" href="https://drive.google.com/file/d/1ly-TqrGVsX2jaWA8IyhLP8R7p5ckdE-Y/view?usp=sharing" target="_blank">
+                    <div class="project-image-wrapper">
+                        <img src="img/jna.jpeg" alt="BNSP Skema Junior Network Administrator">
+                        <div class="project-overlay">See details</div>
+                    </div>
+                </a>
+                <div class="project-info">
+                    <h3>BNSP Skema Junior Network Administrator</h3>
+                    <p class="project-description">I worked on the BNSP module for the Junior Network Administrator scheme using Cisco devices, including routing, switching, VLAN, DHCP, NAT, ACL configuration, and network troubleshooting via CLI.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <a class="project-link-overlay" href="https://drive.google.com/file/d/1Qk-5Z21vtk6tbiT4L_Mnb7p4mWMl3j32/view?usp=sharing" target="_blank">
+                    <div class="project-image-wrapper">
+                        <img src="img/mgfw.jpeg" alt="Next Generation Firewall Implementation">
+                        <div class="project-overlay">See details</div>
+                    </div>
+                </a>
+                <div class="project-info">
+                    <h3>Next Generation Firewall Implementation (NGFW) Implementation - PNETLab</h3>
+                    <p class="project-description">Implementing a Next Generation Firewall (NGFW) using PNETLab, including configuring firewall policies, network segmentation, and security features such as IPS and web filtering.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <a class="project-link-overlay" href="https://drive.google.com/file/d/1Qk-5Z21vtk6tbiT4L_Mnb7p4mWMl3j32/view?usp=sharing" target="_blank">
+                    <div class="project-image-wrapper">
+                        <img src="img/office.jpeg" alt="Office Network Infrastructure Design">
+                        <div class="project-overlay">See details</div>
+                    </div>
+                </a>
+                <div class="project-info">
+                    <h3>Office Network Infrastructure Design</h3>
+                    <p class="project-description">I design and build network infrastructure for small to medium-sized offices, taking performance, security, and scalability into consideration. Projects range from network topology planning to implementation and testing.</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<!-- CERTIFICATE -->
+<section id="certificate" class="section">
+    <div class="container">
+        <h2 class="section-title">Certificates</h2>
+        <p class="section-subtitle">Some of the certificates I have obtained</p>
+        <div class="certificates">
+            <div class="certificate">
+                <img src="img/BNSP.jpeg" alt="Junior Network Administrator">
+                <div class="certificate-info">
+                    <h3>Junior Network Administrator</h3>
+                    <div class="institution-year">
+                        <span class="institution">🏛️Badan Nasional Sertifikasi Profesi</span>
+                        <span class="year">📅2025</span>
+                    </div>
+                    <p class="description">Possess basic competencies as a Junior Network Administrator, including installation, configuration, and management of computer networks. Capable of configuring IP addresses, basic routing, and network troubleshooting to ensure proper connectivity according to industry standards.</p>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="img/MTCNA.jpeg" alt="MikroTik Certified Network Associate">
+                <div class="certificate-info">
+                    <h3>MikroTik Certified Network Associate</h3>
+                    <div class="institution-year">
+                        <span class="institution">🏛️MikroTik</span>
+                        <span class="year">📅2025</span>
+                    </div>
+                    <p class="description">Certified in the use of MikroTik devices, with capabilities in routing, bridging, wireless, firewall, NAT, and bandwidth management configurations. Capable of implementing small to medium-scale networks efficiently and stably using RouterOS.</p>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="img/FORTIGATE.jpeg" alt="Rancang Bangun Keamanan Jaringan Dengan Firewall Fortigate">
+                <div class="certificate-info">
+                    <h3>Rancang Bangun Keamanan Jaringan Dengan Firewall Fortigate</h3>
+                    <div class="institution-year">
+                        <span class="institution">🏛️PT Dimensi Kreasi Nusantara</span>
+                        <span class="year">2024</span>
+                    </div>
+                    <p class="description">Skilled in designing and implementing network security using FortiGate Firewalls. This includes configuring firewall policies, NAT, VPN, and protecting against network threats to maintain system security and integrity.</p>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="img/WAN.jpeg" alt="Rancang Bangun Jaringan WAN">
+                <div class="certificate-info">
+                    <h3>Rancang Bangun Jaringan WAN</h3>
+                    <div class="institution-year">
+                        <span class="institution">🏛️PT WAN TEKNOLOGI</span>
+                        <span class="year">📅2023</span>
+                    </div>
+                    <p class="description">Understand the concept and implementation of Metropolitan Area Networks (MANs) that connect multiple networks within a city. Ability to design topologies, determine network devices, and optimize the performance and scalability of large-scale networks.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+<!-- Google Translate -->
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'id'}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+</html>
